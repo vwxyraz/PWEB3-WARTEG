@@ -1,0 +1,157 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+}
+
+body{
+    color: #413620;
+    background-color:#FFD791 ;
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid ;
+    background-color: aliceblue;
+}
+
+header {
+    height: 160px;
+    background-image: url(img/bg-head.jpg);
+    /* background-color: #FFD791; */
+}
+
+h1{
+    /* text-indent: -9999px; */
+    text-align: center;
+    vertical-align: middle;
+    width: 940px;
+    height: 130px;
+    line-height: 125px;
+    margin: auto;
+    color: #eeeeee;
+}
+
+nav, footer {
+    clear: both;
+    display: block;
+    color: #ffffff;
+    background-color: #9F7833;
+    height: 30px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+nav ul{
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+    display: block;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    margin-right: 40px;
+}
+
+nav li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+nav li a:hover, nav li a.current {
+    color: #000000;
+}
+
+section.course {
+    float: left;
+    width: 659px;
+    border-right: 1px solid #CDE1DD;
+}
+
+section.courses {
+    float: left;
+    height: 950px;
+    width: 659px;
+    border-right: 1px solid #CDE1DD;
+    overflow-y:scroll;
+}
+
+article{
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+hgroup {
+    margin-top: 40px;
+}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+
+figure img {
+    width: 288px;
+    height: 189px;
+}
+
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+
+aside {
+    width: 230px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+
+aside section a{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #CDE1DD;
+}
+
+aside section a:hover {
+    color: #9C6615;
+    background-color: #CDE1DD;
+}
+
+a{
+    color: #9F7833;
+    text-decoration: none;
+}
+
+h1, h2, h3{
+    font-weight: normal;
+}
+
+h2{
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+
+h3{
+    margin: 0px 0px 10px 0px;
+    color: #9C6615;
+}
+
+aside h2{
+    padding: 30px 0px 10px 0px;
+    color: #9C6615;
+}
+
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
